@@ -18,12 +18,12 @@ document.addEventListener('scroll', () => {
 });
 
 function downloadCV() {
-	const link = document.createElement('a');
-	link.href = 'Wahaj.pdf'; 
-	link.download = 'My_CV.pdf'; 
-	document.body.appendChild(link);
-	link.click();
-	document.body.removeChild(link);
+    const link = document.createElement('a');
+    link.href = 'Wahaj.pdf'; 
+    link.download = 'My_CV.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
 }
 
 menu_item.forEach((item) => {
